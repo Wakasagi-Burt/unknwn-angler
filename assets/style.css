@@ -86,3 +86,14 @@ footer p {
 }
 /* About page CSS */
 
+.bio-page {
+    border-left: 4px solid;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+#bio-head {
+    font-size: 90px;
+    padding-top: 20px;
+}
