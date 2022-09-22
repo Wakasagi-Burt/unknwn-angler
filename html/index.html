@@ -2,63 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="X-UA-Compatible" content="IE=edge"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css"/>
     <title>THE UNKNWN ANGLER</title>
   </head>
 
   <body>
-    <header>
-        <h1>THE UNKN&#9760WN ANGLER</h1>
-        <h2 id="head-des">'FISHING THE UNKNWN'</h2>
-    </header>
-
-    <nav id="main-nav">
-        <a href="bio.html">ABOUT UNKNWN &#9760</a>
-        <br><br><br>
-        <a href="footage.html">ON THE WATER FOOTAGE &#9760</a>
-        <br><br><br>
-        <a href="interview.html">ANGLER INTERVIEWS &#9760</a>
-        <br><br><br>
-        <a href="merch.html">UNKNWN MERCH &#9760</a>
-        <br><br><br>
-        <a href="import.html">IMPORT TACKLE &#9760</a>  
-        <br><br><br>
-        <a href="tips.html">TIPS FROM AN ANGLER &#9760</a>
-        <br><br><br>
-        <a href="blog.html">DISCUSSIONS &#9760</a>
-        <br><br><br>
-        <a href="questions.html">ASK US &#9760</a>
-        <br><br><br>
-        <a href="contact.html">GET IN TOUCH &#9760</a>
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand custom-nav" href="/html/index.html">UNKNWN ANGLER</a> 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ABOUT UNKNWN
+                </a>
+                <ul class="dropdown-menu bg-dark custom-drop" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item drop-text" href="/html/bio.html">UNKNWN</a></li>
+                  <li><a class="dropdown-item drop-text" href="#">OUR MISSION</a></li>
+                  
+                </ul>
+           
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              UNKNWN CONTENT 
+              </a>
+              <ul class="dropdown-menu bg-dark custom-drop" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item drop-text" href="#">ON THE WATER FOOTAGE</a></li>
+                <li><a class="dropdown-item drop-text" href="#">INTERVIEW WITH AN ANGLER</a></li>
+                
+              </ul>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOP UNKNWN
+                </a>
+                <ul class="dropdown-menu bg-dark custom-drop" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item drop-text " href="#">MERCH</a></li>
+                  <li><a class="dropdown-item drop-text" href="#">IMPORT TACKLE</a></li>
+                  
+                </ul>
+        </div>
+      </div>
     </nav>
-    <main>
-        <section class="site-bio">
-            <h3>THE MISSION</h3>
-        </section>
+    <section class="bg-dark p-5">
+      <div class="container">
+          <div class="d-sm-flex">
+            <img class="img-fluid w-50 img1" src="/assets/images/swimimg.jpeg">
+            <img class="img-fluid w-50 img2" src="/assets/images/bassimg.jpeg">
+          </div>
+        </div>
+      </div>
+     </section> 
 
-        <section class="bio-text">
-            <p id="about-text">
-                MY GOAL WAS TO BUILD A WEBSITE THAT HAS A ONE STOP SHOP FOR VIDEO CONTENT,
-                <br>
-                TIPS & TRICKS, DISCUSSION FORUMS, AS WELL AS CARRYING A SMALL ARRAY OF
-                <br>
-                IMPORTED TACKLE AND SITE MERCH.</p>
-        </section>
-
-    <section class="home-img">
-        <img id="main-img" src="paddleimg.jpg" alt="main page image">
+    <section class="text-dark text-center">
+        <div class="container">
+          <div class="d-sm-flex">
+          <h1 class="p-4 waka-head">WAKASAGI BURT</h1>
+          <p class="p-3 waka-p">MY NAME IS BRETT BUT YOU PROBABLY KNOW ME AS WAKASAGI BURT.
+            <br>I CREATED THIS SITE TO BRING ANGLERS TOGETHER AS WELL AS
+            <br> PUTTING ALL OF MY CONTENT AND SKILLS THAT I HAVE GATHERED ALONG 
+            <br>MY FISHING JOURNEY ALL IN ONE PLACE. MY GOAL IS TO BRING ATTENTION TO
+            <br>THOSE WHO HAVE SO MUCH KNOWLEDGE BUT DO NOT HAVE THE PRESENCE
+            <br>ON SOCIAL MEDIA TO SHARE THAT. HENCE THE NAME <span id="unknwn-p">"UNKNWN ANGLER"</span></p>
+          </div>
+      </div> 
     </section>
+      
+
+
+
+   
     
-    </main>
-    <footer>
-        <p> 
-            ERROR UNKNWN ERROR UNKNWN ERROR UNKNWN
-            ERROR UNKNWN ERROR UNKNWN ERROR UNKNWN
-            ERROR UNKNWN ERROR UNKNWN ERROR UNKNWN
-            ERROR UNKNWN ERROR UNKNWN ERROR UNKNWN
-            ERROR UNKNWN ERROR UNKNWN ERROR UNKNWN
-            ERROR UNKNWN ERROR UNKNWN ERROR 
-        </p>
-    </footer>
-</body>
+
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

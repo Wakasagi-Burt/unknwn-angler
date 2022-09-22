@@ -1,0 +1,87 @@
+/* About page CSS */
+* {
+  background-color: black;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-shadow: 3px 3px 10px;
+  color: rgb(24, 197, 24);
+}
+
+.bio-page {
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  box-shadow: 3px 3px 10px;
+}
+
+#bio-head {
+  font-size: 90px;
+  padding-top: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+.one {
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 14%;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  box-shadow: 3px 6px 10px;
+}
+
+.two {
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 33%;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  box-shadow: 3px 6px 10px;
+}
+
+.three {
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 52%;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  box-shadow: 3px 3px 10px;
+}
+
+.four {
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 71%;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  box-shadow: 3px 6px 10px;
+}
+
+.five {
+  position: absolute;
+  width: 1000px;
+  height: 200px;
+  left: 23%;
+  top: 700px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  box-shadow: 3px 6px 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+main {
+  font-size: 16px;
+}
+
